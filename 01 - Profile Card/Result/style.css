@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Exile&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    max-width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 2rem;
+    box-shadow: 0 5px 29px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #191919;
+}
+
+.image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text .name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.text .job {
+    font-size: small;
+    font-weight: 500;
+}
+
+.media {
+    padding: 20px;
+}
+
+.media a {
+    padding: 7px;
+    color: #191919;
+    font-size: 1rem;
+}
+
+.buttons {
+    margin: auto;
+    padding: auto;
+    display: flex;          
+    gap: 20px;              
+    justify-content: center;
+}
+
+.buttons .first {
+text-decoration: none;
+border: none;
+background-color: #191919;
+padding: 10px 20px;
+border-radius: 50px;
+color: white;
+}
+
+.buttons .secound {
+text-decoration: none;
+border: none;
+background-color: #191919;
+padding: 10px 20px;
+border-radius: 50px;
+color: white;
+}
+
+.anjay {
+    margin: auto;
+    padding: 16px 0px 0px 0px;
+    display: flex;          
+    gap: 20px;              
+    justify-content: center;
+}
+
+.anjay .anjay1 {
+    display: flex;
+    /* padding: 10px 10px 0px 10px; */
+    
+}
